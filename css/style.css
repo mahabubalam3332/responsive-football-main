@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding:0;
+    outline: 0;
+}
+:root{
+    /* font-variable */
+    --primary-fonts:"Poppins";
+    /* color-variable */
+    --bg-color:#2D25A0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap');
+
+
+.content_inner {
+    background: var(--bg-color);
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.banner_left {
+    font-size: 64px;
+    font-family: poppins;
+    line-height: 80px;
+    font-weight: 700;
+}
+.banner_right img {
+    width: 556px;
+    height: 438px;
+}
+.btn a {
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 21px;
+    background: #E02C6D;
+    text-decoration: none;
+}
+/* player_lists */
+.list_inner {
+    margin-left: 180px;
+    margin-right: 210px;
+    margin-top: 70px;
+    background: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.palyers_name {
+    padding: 15px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 20px #d8cbcb;
+    
+}
+.palyers_name img {
+    width: 200px;
+    height: 200px;
+}
+.palyers_name h2 {
+    font-size: 25px;
+    padding: 10px;
+    font-family: poppons;
+}
+.palyers_name p {
+    font-size: 12px;
+    text-align: left;
+    padding: 5px;
+}
