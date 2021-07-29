@@ -12,13 +12,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap');
 
-
 .content_inner {
     background: var(--bg-color);
     color: #fff;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 .banner_left {
     font-size: 64px;
@@ -30,30 +30,37 @@
     width: 556px;
     height: 438px;
 }
-.btn a {
-    font-size: 20px;
+.button {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+.button a {
+    font-size: 18px;
     color: #fff;
-    padding: 10px 21px;
-    background: #E02C6D;
     text-decoration: none;
+    background: #E02C6D;
+    padding: 26px 44px;
+}
+.button img {
+    background: #E02C6D;
+    padding: 10px 35px;
 }
 /* player_lists */
 .list_inner {
     margin-left: 180px;
     margin-right: 210px;
-    margin-top: 70px;
-    background: #FFFFFF;
+    margin-top: 30px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
 }
+
 .palyers_name {
     padding: 15px;
     box-sizing: border-box;
     box-shadow: 5px 5px 20px #d8cbcb;
-    
 }
 .palyers_name img {
     width: 200px;
