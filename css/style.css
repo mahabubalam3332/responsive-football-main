@@ -3,15 +3,16 @@
     padding:0;
     outline: 0;
 }
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap');
+
 :root{
     /* font-variable */
-    --primary-fonts:"Poppins";
+    --primary-fonts: Poppins;
+    --secondar-fonts: cursive;
     /* color-variable */
     --bg-color:#2D25A0;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap');
-
 .content_inner {
     background: var(--bg-color);
     color: #fff;
@@ -22,8 +23,8 @@
 }
 .banner_left {
     font-size: 64px;
-    font-family: poppins;
-    line-height: 80px;
+    font-family:var(--primary-fonts);
+    line-height: 85px;
     font-weight: 700;
 }
 .banner_right img {
@@ -68,7 +69,7 @@
 .palyers_name h2 {
     font-size: 25px;
     padding: 10px;
-    font-family: poppons;
+    font-family:var(--primary-fonts);
 }
 .palyers_name p {
     font-size: 12px;
@@ -79,11 +80,11 @@
 .hilight_left h2 {
     font-size: 40px;
     padding: 7px;
-    font-family: poppins;
+    font-family: var(--primary-fonts);
     font-weight: 700;
 }
 .hilight_left p {
-    font-family: poppins;
+    font-family: var(--primary-fonts);
     font-size: 18px;
     text-align: left;
     line-height: 25px;
